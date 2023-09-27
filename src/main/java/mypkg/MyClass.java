@@ -18,6 +18,7 @@ public class MyClass {
 	public void show()
 	{
 		System.out.println("Hi, GFG");
+		System.out.println("Hi, GFG");
 	}
 	public static void main(String[] args) {
 		MyClass ob = new MyClass();
