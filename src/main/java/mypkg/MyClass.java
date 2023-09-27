@@ -11,11 +11,20 @@ public class MyClass {
 	{
 		return (s*s);
 	}
+	public float areaCircle(float r)
+	{
+		return (float) (3.14 * r * r);
+	}
+	public void show()
+	{
+		System.out.println("Hi, GFG");
+	}
 	public static void main(String[] args) {
 		MyClass ob = new MyClass();
 		int l;
 		int b;
 		int s;
+		int r;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Length: ");
 		l = sc.nextInt();
@@ -25,6 +34,9 @@ public class MyClass {
 		System.out.println("Enter the value of Side: ");
 		s = sc.nextInt();
 		System.out.println("Area of Square is: "+ ob.areaSquare(s));
+		System.out.println("Enter the value of r: ");
+		r = sc.nextInt();
+		System.out.println("Area of Square is: "+ ob.areaCircle(r));
 	}
 
 }
