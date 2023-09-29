@@ -20,6 +20,10 @@ public class MyClass {
 		System.out.println("Hi, GFG");
 		System.out.println("Hi, GFG");
 	}
+	public int areaCube(int s)
+	{
+		return (6 * s);
+	}
 	public static void main(String[] args) {
 		MyClass ob = new MyClass();
 		int l;
@@ -38,6 +42,9 @@ public class MyClass {
 		System.out.println("Enter the value of r: ");
 		r = sc.nextInt();
 		System.out.println("Area of Square is: "+ ob.areaCircle(r));
+		System.out.println("Enter the value of s: ");
+		s = sc.nextInt();
+		System.out.println("Area of Cube is: "+ ob.areaCube(s));
 	}
 
 }
